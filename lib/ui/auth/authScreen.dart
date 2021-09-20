@@ -23,7 +23,7 @@ class AuthScreen extends StatelessWidget {
             padding:
                 const EdgeInsets.only(left: 16, top: 32, right: 16, bottom: 8),
             child: Text(
-              'Say Hello To Your New App!',
+              'Firebase login',
               textAlign: TextAlign.center,
               style: TextStyle(
                   color: Color(COLOR_PRIMARY),
@@ -31,14 +31,7 @@ class AuthScreen extends StatelessWidget {
                   fontWeight: FontWeight.bold),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 16),
-            child: Text(
-              'You\'ve just saved a week of development and headaches.',
-              style: TextStyle(fontSize: 18),
-              textAlign: TextAlign.center,
-            ),
-          ),
+       
           Padding(
             padding: const EdgeInsets.only(right: 40.0, left: 40.0, top: 40),
             child: ConstrainedBox(
