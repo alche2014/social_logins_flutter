@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original -->
+<string name="facebook_app_id">1843305215868109</string>
+<string name="fb_login_protocol_scheme">fb1843305215868109</string>
+<string name="app_name">alchemative</string>
+</resources>
